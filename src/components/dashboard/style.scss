@@ -1,0 +1,50 @@
+.counttry__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+    padding: 25px;
+    margin: 0 auto;
+}
+.nav{
+    width: 100v;
+    background: rgb(255, 0, 0);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flag{
+    width: 50px;
+    margin-right: 20px;
+}
+.gerb{
+    width: 50px;
+}
+.population{
+    max-width: 300px;
+    width: 100%;
+    text-align: start;
+}
+button{
+    padding: 20px 25px;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+    background: white;
+
+}
+input{
+    padding: 20px 25px;
+    border-radius: 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+select{
+    padding: 20px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 5px;
+    background: white;
+}

@@ -91,13 +91,16 @@ function Dashboard() {
             <button onClick={()=>sortCountry()} className="sort">Сортировка по алфавиту</button>
             <button onClick={()=>sortPopulation(1)} className="sort">Сортировка по возрастанию популяции</button>
             <button onClick={()=>sortPopulation(2)} className="sort">Сортировка по убыванию популяции</button>
+           <div className="">
+            <p className="region">Сортировка по регионам</p>
             <select onChange={(e)=>getWithRegion(e.target.value)} name="all" id="">
-                <option value="africa">Africa</option>
-                <option value="americas">Americas</option>
-                <option value="asia">Asia</option>
-                <option value="europe">Europe</option>
-                <option value="oceania">Oceania</option>
-        </select>
+                    <option value="africa">Africa</option>
+                    <option value="americas">Americas</option>
+                    <option value="asia">Asia</option>
+                    <option value="europe">Europe</option>
+                    <option value="oceania">Oceania</option>
+                </select>
+           </div>
         </div>
     </div>
 
